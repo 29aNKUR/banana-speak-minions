@@ -3,5 +3,18 @@
     height:10vh;
     padding:1rem;
     display:block;
-    margin-top:1rem;
+    margin:1rem;
+}
+
+#btn-translate{
+    margin:1rem;    
+}
+
+#output{
+    width:80%;
+    margin:1rem;
+    padding:1rem;
+    display:block;
+    height:10vh;
+    border: 1px solid black;
 }

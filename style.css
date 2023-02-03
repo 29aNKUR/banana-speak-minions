@@ -1,20 +1,84 @@
-#txt-input{
-    width:80%;
-    height:10vh;
-    padding:1rem;
-    display:block;
-    margin:1rem;
+*{
+    box-sizing:border-box;
 }
 
-#btn-translate{
-    margin:1rem;    
+:root{
+    --primary:#F2C94C;
+    --black:#333333;
+    --width-break:600px;
+}
+
+div{
+    display:block;
+}
+
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'The Nautigal', cursive;
+    color:#333333;
+}
+
+nav{
+    background-color: var(--primary);
+    text-align:center;
+}
+
+main{
+    margin:auto;
+    padding:1rem;
+    max-width:var(--width-break);
+}
+
+textarea{
+    box-sizing:border-box;
+    display:block;
+    width:100%;
+    min-height:20vh;
+    margin-top:2rem;
+    font-size:large;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'The Nautigal', cursive;
+}
+
+button{
+    background-color:var(--primary);
+    border:none;
+    margin:1rem 0rem;
+    padding:1rem 2rem;
+    font-size:large;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'The Nautigal', cursive;
+    cursor:pointer;
 }
 
 #output{
-    width:80%;
-    margin:1rem;
-    padding:1rem;
+    box-sizing:border-box;
+    width:100%;
+    min-height:10vh;
+    max-height:20vh;
+    overflow:scroll;
+    border:1px solid var(--black);
+}
+
+footer{
     display:block;
-    height:10vh;
-    border: 1px solid black;
+    text-align:center;
+    position:fixed;
+    padding:2rem;
+    background-color: var(--primary);
+    margin:0;
+    bottom:0;
+    width:100%;
+}
+
+footer p{
+    max-width:var(--width-break);  
+    margin:auto;
 }
